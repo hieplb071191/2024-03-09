@@ -1,0 +1,34 @@
+.benefits {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, calc(100%/4) );
+    margin-top: 20px;
+    .benefit-content {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .image-benefit {
+            width: 80px;
+            height: 83px;
+            object-fit: fill;
+            border-radius: 50%;
+        }
+        .title-benefit {
+            padding: 10px 0;
+            font-size: 20px;
+            font-weight: bold;
+            color: #075e8e;
+            text-align: center;
+        }
+        .content-benefit {
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        grid-template-columns: repeat(2, calc(100%/2));
+        // grid-template-columns: repeat(2, 50px);
+    }
+}
