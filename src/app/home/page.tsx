@@ -4,6 +4,8 @@ import IntiniteCaurosel from "@/components/banner/banner-caurosel"
 import homeStyles from '../../../styles/home.module.scss'
 import Benefits from "@/components/benefits/benefits"
 import BannerProject from "@/components/banner-project/banner-project"
+import TitleProject from "@/components/title-project/titleProject"
+import IconProject from "@/components/icon-project/icon-project"
 
  const HomePage = ()=> {
   const items = [
@@ -25,6 +27,8 @@ import BannerProject from "@/components/banner-project/banner-project"
           <IntiniteCaurosel items={items} />
           <Benefits />
           <BannerProject />
+          <TitleProject />
+          <IconProject />
         </div>
       )
 }
