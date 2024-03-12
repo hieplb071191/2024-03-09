@@ -1,11 +1,13 @@
 .icon-project {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 20px 0;
+    padding: 0 20px;
     .left {
         display: flex;
+        justify-content: space-between;
         .elm-left {
             width: 113px;
             display: flex;
@@ -35,6 +37,11 @@
         display: flex;
         width: 268px;
         object-fit: cover;
+        img {
+            animation-name: scale-logo;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
     }
     @media screen and (max-width: 800px) {
         flex-direction: column;
@@ -45,4 +52,16 @@
             justify-content: center;
         }
     }
+}
+
+@keyframes scale-logo {
+    0% {
+        transform: scale(1);
+    };
+    50% {
+        transform: scale(0.85);
+    }
+    100% {
+        transform: scale(1);
+    };
 }

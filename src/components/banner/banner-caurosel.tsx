@@ -22,7 +22,7 @@ interface CauroselInfiniteProp {
     }: CauroselInfiniteProp) {      
         return (
             <div className={cauroselStyles['caurosel']}>
-                <UncontrolledCarousel items={items} autoPlay={false} fade={true}/>;
+                <UncontrolledCarousel items={items} autoPlay={false} fade={true}/>
             </div>
         );
 }

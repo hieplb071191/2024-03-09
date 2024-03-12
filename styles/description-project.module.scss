@@ -1,0 +1,90 @@
+.description-project {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    .content {
+        display: flex;
+        flex-direction: row;
+        .image {
+            width: 50%;
+            object-fit: cover;
+            background-size: cover;
+            img {
+                width: 100%;
+                height: 95%!important;
+            }
+        }
+        .description {
+            width: 50%;
+            border-top: dashed 1px #83b614;
+            border-right: dashed 1px #83b614;
+            border-bottom: dashed 1px #83b614;
+            border-left: solid 2px #83b614;
+            padding: 10px 20px;
+        }
+
+    }
+    .content-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        .image {
+            width: 50%;
+            object-fit: cover;
+            background-size: cover;
+            img {
+                width: 100%;
+                height: 95%!important;
+            }
+        }
+        .description {
+            width: 50%;
+            border-top: dashed 1px #83b614;
+            border-right: solid 2px #83b614;
+            border-bottom: dashed 1px #83b614;
+            border-left: dashed 1px #83b614;
+            padding: 10px 20px;
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        .content {
+            .image {
+                img {
+                    height: auto!important;
+                }
+            }
+        }
+        .content-reverse {
+            .image {
+                img {
+                    height: auto!important;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .content {
+            flex-direction: column;
+            .image {
+                width: 100%;
+            }
+            .description {
+                width: 100%;
+                border: none;
+            }
+
+        }
+        .content-reverse {
+            flex-direction: column-reverse;
+            .image {
+                width: 100%;
+            }
+            .description {
+                width: 100%;
+                border: none;
+            }
+        }
+    }
+}

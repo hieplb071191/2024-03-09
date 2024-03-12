@@ -6,6 +6,9 @@ import Benefits from "@/components/benefits/benefits"
 import BannerProject from "@/components/banner-project/banner-project"
 import TitleProject from "@/components/title-project/titleProject"
 import IconProject from "@/components/icon-project/icon-project"
+import IframeVideo from "@/components/iframe-video/iframe-video"
+import DescriptionProject from "@/components/description-project/description-project"
+import DescriptionImageProject from "@/components/description-image/description-image-project"
 
  const HomePage = ()=> {
   const items = [
@@ -29,6 +32,9 @@ import IconProject from "@/components/icon-project/icon-project"
           <BannerProject />
           <TitleProject />
           <IconProject />
+          <IframeVideo />
+          <DescriptionProject />
+          <DescriptionImageProject />
         </div>
       )
 }

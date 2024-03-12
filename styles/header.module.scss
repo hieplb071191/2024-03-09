@@ -26,6 +26,9 @@
                 padding: 0 14px;
                 color: #FFFFFFCC;
                 font: 18px Roboto sans-serif;
+                &:hover {
+                    cursor: pointer;
+                }
             }
             &__contact {
                 width: 134px;
