@@ -9,7 +9,6 @@ import IconProject from "@/components/home/icon-project/icon-project"
 import IframeVideo from "@/components/home/iframe-video/iframe-video"
 import DescriptionProject from "@/components/home/description-project/description-project"
 import DescriptionImageProject from "@/components/home/description-image/description-image-project"
-import CustomCarousel from "@/re-use-component/carousel"
 
  const HomePage = ()=> {
   const items = [
