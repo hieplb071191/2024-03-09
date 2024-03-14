@@ -1,4 +1,4 @@
-import iconProjectStyles from '../../../styles/icon-project.module.scss'
+import iconProjectStyles from '../../../../styles/icon-project.module.scss'
 
 export default function IconProject() {
     return(

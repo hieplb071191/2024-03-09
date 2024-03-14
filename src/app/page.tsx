@@ -1,8 +1,9 @@
 'use client'
 
-import IntiniteCaurosel from "@/components/banner/banner-caurosel";
+import IntiniteCaurosel from "@/components/home/banner/banner-caurosel";
 import React from "react";
 import homeStyles from '../../styles/home.module.scss'
+import HomePage from "./home/page";
 
 export default function Home() {
   const listImagesBanner = [
@@ -11,6 +12,8 @@ export default function Home() {
 
 ]
   return (
-    <></>
+    <>
+      <HomePage />
+    </>
   )
 }

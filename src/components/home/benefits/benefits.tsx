@@ -1,4 +1,4 @@
-import benefitStyle from '../../../styles/benefits.module.scss'
+import benefitStyle from '../../../../styles/benefits.module.scss'
 
 const Benefits = () => {
     return (

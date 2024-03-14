@@ -1,4 +1,4 @@
-import iframeVideoStyles from '../../../styles/iframe-video.module.scss'
+import iframeVideoStyles from '../../../../styles/iframe-video.module.scss'
 
 export default function IframeVideo () {
     return (

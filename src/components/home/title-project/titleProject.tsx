@@ -1,4 +1,4 @@
-import titleProjectStyle from '../../../styles/title-project.module.scss'
+import titleProjectStyle from '../../../../styles/title-project.module.scss'
 
 export default function TitleProject() {
     return(

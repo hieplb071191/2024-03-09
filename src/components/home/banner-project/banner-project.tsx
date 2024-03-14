@@ -1,4 +1,4 @@
-import bannerProjectStyle from '../../../styles/banner-project.module.scss'
+import bannerProjectStyle from '../../../../styles/banner-project.module.scss'
 import { BsFillTelephoneFill } from "react-icons/bs";
 export default function BannerProject() {
     return (

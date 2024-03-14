@@ -1,4 +1,4 @@
-import descriptionProjectStyles from '../../../styles/description-project.module.scss'
+import descriptionProjectStyles from '../../../../styles/description-project.module.scss'
 
 export default function DescriptionProject() {
     return (

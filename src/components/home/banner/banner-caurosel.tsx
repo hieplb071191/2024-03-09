@@ -1,5 +1,5 @@
 import { SetStateAction, useEffect, useState } from "react";
-import cauroselStyles from '../../../styles/caurosel.module.scss'
+import cauroselStyles from '../../../../styles/caurosel.module.scss'
 
 import {
     Carousel,

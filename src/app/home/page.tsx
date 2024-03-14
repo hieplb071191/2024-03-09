@@ -1,14 +1,15 @@
 'use client'
 
-import IntiniteCaurosel from "@/components/banner/banner-caurosel"
+import IntiniteCaurosel from "@/components/home/banner/banner-caurosel"
 import homeStyles from '../../../styles/home.module.scss'
-import Benefits from "@/components/benefits/benefits"
-import BannerProject from "@/components/banner-project/banner-project"
-import TitleProject from "@/components/title-project/titleProject"
-import IconProject from "@/components/icon-project/icon-project"
-import IframeVideo from "@/components/iframe-video/iframe-video"
-import DescriptionProject from "@/components/description-project/description-project"
-import DescriptionImageProject from "@/components/description-image/description-image-project"
+import Benefits from "@/components/home/benefits/benefits"
+import BannerProject from "@/components/home/banner-project/banner-project"
+import TitleProject from "@/components/home/title-project/titleProject"
+import IconProject from "@/components/home/icon-project/icon-project"
+import IframeVideo from "@/components/home/iframe-video/iframe-video"
+import DescriptionProject from "@/components/home/description-project/description-project"
+import DescriptionImageProject from "@/components/home/description-image/description-image-project"
+import CustomCarousel from "@/re-use-component/carousel"
 
  const HomePage = ()=> {
   const items = [
