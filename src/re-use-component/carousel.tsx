@@ -39,7 +39,7 @@ export default function CustomCarousel(props: CustomCarousel) {
             {
                 listImage.map((item, index) => {
                     return (
-                        <div className={styles['img-content']} key={index}>
+                        <div className={`${styles['img-content']}`} key={index}>
                             <img src={item.url} alt="item" />
                         </div>
                     )
