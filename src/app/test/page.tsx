@@ -3,3 +3,5 @@ const TestPage = () => {
         test screen
     </>
 }
+
+export default TestPage
